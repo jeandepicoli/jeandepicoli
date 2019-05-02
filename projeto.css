@@ -70,7 +70,7 @@ header h2{
 }
 
 header a {
-  display: inline-block;
+  display: inline;
   background-color: #FF8C00;
   color: #fff;
   text-decoration: none;
