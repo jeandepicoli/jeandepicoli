@@ -1,0 +1,296 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+img {
+  max-width: 100%; 
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+
+
+header{
+  background-image: url('background h.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  font-family: cursive;
+  color: #FF8C00;
+  text-align: center;
+  height: 100vh; 
+  display: flex;
+  flex-flow: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+header h1{
+  text-transform: uppercase;
+  font-size: 32px;
+}
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 48px;
+    padding: 0 20px;
+  }
+}
+@media (min-width: 1024px) {
+  header h1 {
+    font-size: 60px;
+    padding: 0 20px;
+  }
+}
+
+header h2{
+  margin: 25px 0px;
+  font-size: 24px;
+  padding: 0 20px;
+  display: block;
+}
+@media (min-width: 768px){
+    header h2{
+      font-size: 32px;
+      padding: 0 20px;
+    }
+}
+@media (min-width: 1024px){ 
+      header h2{
+        font-size: 48px;
+        padding: 0 20px;
+      }
+}
+
+header a {
+  display: inline-block;
+  background-color: #FF8C00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+@media (min-width: 768px){
+    header a{
+      font-size: 24px;
+    }
+}
+@media (min-width: 1024px){ 
+      header a{
+        font-size: 32px;
+      }
+}
+
+
+.secao-destaques{
+  padding: 40px 12px;
+}
+
+.item-destaques {
+  margin: 20px;
+  text-align: center;
+}
+
+.lista-destaques{
+  list-style: none;
+}
+
+@media (min-width: 1024px) {
+  .lista-destaques {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 30px 0;
+  }
+}
+
+.imagem-destaques {
+  object-fit: fill; 
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+
+.paragrafo-destaques {
+  font-size: 30px;
+  margin-top: 18px;
+}
+
+.secao-apresentacao{
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .secao-apresentacao {
+    padding: 20px 10vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .secao-apresentacao {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px 5vw;
+  }
+  .texto-apresentacao{
+    width: 40%;
+  }
+  .segunda-apresentacao .texto-apresentacao{
+    order: 2; 
+  }
+}
+
+.imagem-apresentacao{
+  margin-top: 12px;
+}
+
+@media (min-width: 1024px){
+.imagem-apresentacao {
+  margin-top: 12px;
+  width: 48%;
+  height: 445px;
+  text-align: justify;
+}
+}
+
+.titulo-apresentacao{
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 12px 0;
+  width: 100%;
+}
+
+.segunda-apresentacao .titulo-apresentacao{
+  margin-bottom: 5px;
+}
+
+
+.paragrafo-apresentacao{
+  font-size: 18px;
+  margin: 5px 0;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .paragrafo-apresentacao {
+    margin: 20px 0;
+  }
+}
+
+
+.secao-faixa{
+  padding: 10vh;
+  margin: 44px 0;
+  text-align: center;
+  background-color: #999;
+}
+
+.faixa-titulo{
+  font-size: 32px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+
+.secao-contato{
+  background-color: #999;
+  padding: 20px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+@media (min-width: 1024px){
+  .secao-contato {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh 20vw;
+  }
+}
+
+.titulo-contato{
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.texto-contato {
+  margin: 40px auto;
+  max-width: 380px;
+}
+
+.paragrafo-contato {
+  text-align: justify;
+  line-height: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.link-contato {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  background-color: #222;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.rodape {
+  padding: 5vh 10vw;
+}
+
+.rodape-lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.rodape-item{
+  margin: auto 20px;
+}
+
+.rodape-link span {
+  font-size: 30px;
+}
+
+.fa-facebook { 
+  color: #0000FF;
+}
+
+.fa-twitter {
+  color: #00FFFF;
+}
+
+.fa-linkedin {
+  color: #1E90FF;
+}
+
+.fa-instagram {
+  color: #FF1493;
+}
+
+.fa-youtube {
+  color: red;
+}
