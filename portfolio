@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, target-densityDpi=device-dpi" />
+    <title>Portfólio Jean</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="projeto.css">
+  </head>
+  <body>
+
+    <header id="top">
+      <h1>Jean Rodrigo Depicoli Júnior</h1>
+      <a href="#work">Informações emprego</a>
+      <a href="#me">Informações sobre mim</a>	  
+      <a href="#fatec">Informações estudantis</a>	  
+      <a href="#contato">Informações de contato</a>	  
+    </header>
+	
+	      <section class="secao-faixa">
+        <h3 class="faixa-titulo">Work</h3>
+      </section>
+	  
+      <section class="secao-apresentacao" id="work">
+        <h3 class="titulo-apresentacao">Dados Organizacionais</h3>
+        <div class="texto-apresentacao">
+          <p class="paragrafo-apresentacao">Empresa: Intelligenza IT & Business Solutions</p>
+          <p class="paragrafo-apresentacao">Ramo: Consultoria SAP HCM</p>
+          <p class="paragrafo-apresentacao">Cargo: Consultor SAP ABAP HCM</p>
+          <p class="paragrafo-apresentacao">Atribuições: Desenvolver e manter sistemas SAP HCM em ABAP, com ênfase em relatórios organizacionais e migrações entre sistemas legado e o sistema SAP</p>
+        </div>
+        <img class="imagem-apresentacao" src="escritorio.jpg" alt="Escritório empresa" >
+      </section>
+
+      <section class="secao-faixa">
+        <h3 class="faixa-titulo">Hobbies</h3>
+      </section>
+	  
+    <section class="secao-destaques" id="hobby">
+      <ul class="lista-destaques">
+        <li class="item-destaques">
+          <img src="futebol.jpg" alt="Futebol" class="imagem-destaques">
+          <p class="paragrafo-destaques">Futebol</p>
+        </li>
+        <li class="item-destaques">
+          <img src="games.jpg" alt="" class="imagem-destaques">
+          <p class="paragrafo-destaques">Games</p>
+        </li>
+        <li class="item-destaques">
+          <img src="ciclismo.jpg" alt="" class="imagem-destaques">
+          <p class="paragrafo-destaques">Ciclismo</p>
+        </li>
+      </section>
+	  <p class="paragrafo-apresentacao">Apaixonado por esportes, sempre pratiquei muitas atividades físicas, incluindo Futebol, Ciclismo, Natação, Voleibol e musculação,</p>
+	  <p class="paragrafo-apresentacao">outra paixão, que surgiu quando ganhei um antigo videogame Super Nintendo de meu tio, são os games, os universo de jogos</p>
+	  <p class="paragrafo-apresentacao"> e o fato de poder viver muitas experiências online são incríveis.</p>
+
+	        <section class="secao-faixa">
+        <h3 class="faixa-titulo">About Me</h3>
+      </section>
+	  
+      <section class="secao-apresentacao segunda-apresentacao" id="me">
+        <div class="texto-apresentacao">
+          <h3 class="titulo-apresentacao">Dados Pessoais</h3>
+          <p class="paragrafo-apresentacao">Nome: Jean Rodrigo Depicoli Junior</p>
+          <p class="paragrafo-apresentacao">RG: xx.xxx.xxx-xx</p>
+          <p class="paragrafo-apresentacao">CPF: xxx.xxx.xxx-xx</p>
+          <p class="paragrafo-apresentacao">Nome do pai: Jean Rodrigo Depicoli</p>
+          <p class="paragrafo-apresentacao">Nome da Mãe: Kelly Cristina Ramos dos Santos</p>
+        </div>
+        <img class="imagem-apresentacao" src="dadospessoais.jpg" alt="Dados Jean" >
+      </section>
+	  
+	  	        <section class="secao-faixa">
+        <h3 class="faixa-titulo">About my studies</h3>
+      </section>
+	  
+	        <section class="secao-apresentacao segunda-apresentacao" id="fatec">
+        <div class="texto-apresentacao">
+          <h3 class="titulo-apresentacao">Dados Estudantis</h3>
+          <p class="paragrafo-apresentacao">Fatec Sorocaba</p>
+          <p class="paragrafo-apresentacao">Estudante de Análise e desenvolvimento de Sistemas</p>
+          <p class="paragrafo-apresentacao">Atualmente cursando o sexto semestre</p>
+          <p class="paragrafo-apresentacao">JAVA, C, VB.NET, Javascript, HTML, CSS, SQL, PL/SQL</p>
+        </div>
+        <img class="imagem-apresentacao" src="fatec.jpg" alt="Dados Fatec" >
+      </section>
+	  
+    <section class="secao-contato" id="contato">
+      <h3 class="titulo-contato">Entre em contato</h3>
+      <div class="texto-contato">
+        <p class="paragrafo-contato">A seguir encontram-se meus links e informações para contatos, ao lado meu Telefone e Email.</p>
+        <p class="paragrafo-contato">Abaixo encontram-se meus links para redes sociais: Facebook, LinkedIn, Instagram e Twitter.</p>
+      </div>
+
+      <div class="links-contato">
+        <a class="link-contato" href="tel:15996742090">(15) 99674-2090</a>
+        <a class="link-contato" href="mailto:judepicoli@gmail.com">judepicoli@gmail.com</a>
+    </div>
+    </section>
+
+    <footer class="rodape">
+      <ul class="rodape-lista">
+        <li class="rodape-item"><a class="rodape-link" href="https://www.facebook.com/jeandepicoli.junior"> <span class="fab fa-facebook"></span></a></li>
+        <li class="rodape-item"><a class="rodape-link" href="https://www.twitter.com/judepicoli"> <span class="fab fa-twitter"></span></a></li>
+        <li class="rodape-item"><a class="rodape-link" href="https://www.linkedin.com/in/jean-depicoli-159008170/"> <span class="fab fa-linkedin"></span></a></li>
+        <li class="rodape-item"><a class="rodape-link" href="https://www.instagram.com/judepicoli"> <span class="fab fa-instagram"></span></a></li>
+		    <a href="#top">TOP</a>
+      </ul>
+    </footer>
+
+  </body>
+</html>
